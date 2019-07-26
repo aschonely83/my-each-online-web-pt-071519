@@ -4,6 +4,6 @@ def my_each(array) # put argument(s) here
    while i < array.length do 
    i = i + 
    yield(array[i])
-     end
+    end
     array
 end
